@@ -3,7 +3,7 @@ import React from "react"
 const LandingPage = () =>{
     return(
         <>
-            <h1>NAVBAR</h1>
+            <h1>LANDING PAGE</h1>
         </>
     )
 }
