@@ -1,6 +1,6 @@
 const Theme = {
     background:"#320d3e",
-    textColor:"#16acea",
+    textColor:"#e8d71e",
     btnColor1:"#ffd79d",
     btnColor2:"#f162ff"
 }
