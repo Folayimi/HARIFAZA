@@ -7,6 +7,7 @@ function App() {
   const [active,setActive] = useState(0)
   const [mobile,setMobile] = useState(false)
   const [size,setSize] = useState(window.innerWidth)
+  const [signIn,setSignIn] = useState(false)
   useEffect(()=>{
     window.addEventListener('resize', ()=>{
       setSize(window.innerWidth)
@@ -30,8 +31,10 @@ function App() {
               active={active} 
               setActive={setActive}
               mobile={mobile}
+              signIn={signIn}
+              setSignIn={setSignIn}
             />
-          } />
+          }/>
           <Route path="/" element={<LandingPage/>}/>
         </Routes>
       </Router>
