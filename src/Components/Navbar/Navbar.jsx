@@ -2,6 +2,7 @@ import React, {useState} from "react"
 import {NavBar} from "./Navbar.Style"
 import { useNavigate } from "react-router-dom"
 import {OutlineBtn} from "../General.Style"
+import brandlogo from "./Images/brandlogo.png"
 
 const Navbar = (props) =>{
     let {
@@ -40,7 +41,14 @@ const Navbar = (props) =>{
                             navigate(`${'/'}`)}
                         }
                     >                        
-                        <div className="brandLogo"></div>
+                        <div className="brandLogo">
+                            <img 
+                                src={brandlogo} 
+                                alt="brandlogo"
+                                width="100%"
+                                height="100%"
+                            />
+                        </div>
                         <div className="brandName">HARIFAZA</div>
                     </div> 
 

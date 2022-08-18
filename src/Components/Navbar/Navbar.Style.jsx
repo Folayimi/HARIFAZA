@@ -5,7 +5,7 @@ export const NavBar = styled.div`
     position:fixed;
     top:0;
     width:100%;
-    
+
     .navCont{        
         padding:1em 2em;
         background:blue;
@@ -21,10 +21,9 @@ export const NavBar = styled.div`
         gap:1em;
 
         .brandLogo{
-            width:2em;
-            height:2em;
-            background:red;
-            cursor:pointer;
+            width:4em;
+            height:4em;            
+            cursor:pointer;                        
         }
         .brandName{
             color:${Theme.textColor};
