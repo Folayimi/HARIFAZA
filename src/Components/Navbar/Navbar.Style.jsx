@@ -2,6 +2,10 @@ import styled from 'styled-components';
 import Theme from '../Theme'
 
 export const NavBar = styled.div`
+    position:fixed;
+    top:0;
+    width:100%;
+    
     .navCont{        
         padding:1em 2em;
         background:blue;
