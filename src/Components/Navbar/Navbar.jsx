@@ -35,17 +35,17 @@ const Navbar = (props) =>{
                     style={{background:background}}
                 >
 
-                    <div className="brand">                        
+                    <div className="brand"
+                        onClick={()=> {
+                            navigate(`${'/'}`)}
+                        }
+                    >                        
                         <div className="brandLogo"></div>
                         <div className="brandName">HARIFAZA</div>
                     </div> 
 
                     <div className="nav">
-                        <div
-                            className={(active === 0 && "navItem")}
-                        >
-                            Categories
-                        </div>
+                        <div>Categories</div>
                         {
                             navItems.map((items, i)=>{
                                 return(                                    
@@ -62,7 +62,7 @@ const Navbar = (props) =>{
                     </div>   
 
                     <div className="sellSignUp">
-                        <div>Sell</div>
+                        <div className="sell">Sell</div>
                         <OutlineBtn>
                             SignUp
                         </OutlineBtn>

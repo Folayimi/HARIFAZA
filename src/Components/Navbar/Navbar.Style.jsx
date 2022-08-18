@@ -24,7 +24,7 @@ export const NavBar = styled.div`
         }
         .brandName{
             color:${Theme.textColor};
-            font-size:2em;
+            font-size:1.5em;
             font-weight:bolder;
             cursor:pointer;
         }
@@ -46,15 +46,25 @@ export const NavBar = styled.div`
         cursor:pointer;
     }
 
+    .nav > div:hover{
+        color:${Theme.textColor}  
+    }
+
     .sellSignUp{
         display:flex;
         justify-content:center;
         align-items:center;
         gap:1em;
+        font-size:1.2em;
+        font-weight:500
     }
 
     .sellSignUp > div{
         cursor:pointer;
+    }
+
+    .sellSignUp > .sell:hover{
+        color:${Theme.textColor}
     }
 
 `

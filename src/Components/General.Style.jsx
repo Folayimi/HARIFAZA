@@ -7,4 +7,9 @@ export const OutlineBtn = styled.div`
     border-radius:0.5em;
     padding:0.5em 1em;
     cursor:pointer;
+    &:hover{
+        background:${Theme.textColor};
+        color:white;
+        font-weight:bolder;
+    }
 `
